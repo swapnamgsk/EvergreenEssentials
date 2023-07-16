@@ -1,0 +1,60 @@
+.nav{
+    height : 200px;
+    width : 100%;
+    border : 1px solid black;
+    background-color : teal;
+}
+.navbar{
+    height : 75%;
+    width : 100%;
+    display : flex;
+}
+.logo{
+    height : 100px;
+    width : 300px;
+    border-radius : 100px;
+    background-image: url('../../../public/Images/Sanjivini.png');
+    background-size : 100%;
+    background-repeat: no-repeat;
+}
+.quote{
+    margin-left : 40px;
+    font-size: 19px;
+    border-radius : 100px;
+}
+.home{
+    margin-left : 740px;
+    margin-top : 130px;
+}
+.about{
+    margin-left : 130px;
+    margin-top : 130px;
+}
+.plant{
+     margin-left : 130px;
+     margin-top : 130px;
+}
+.signin{
+    height : 50px;
+    width : 50px;
+    border : 1px solid black;
+    border-radius : 90px;
+    background-image: url('../../../public/Images/Signin.png');
+    background-size : 100%;
+    background-repeat: no-repeat;
+    margin-left : 130px;
+    margin-top : 110px;
+}
+.language{
+    height : 30px;
+    width : 200px;
+    margin-left : 1500px;
+}
+.select{
+    height : 25px;
+    width : 200px;
+    font-size: 20px;
+    margin-top : 10px;
+    border : none;
+    background-color: teal;
+}

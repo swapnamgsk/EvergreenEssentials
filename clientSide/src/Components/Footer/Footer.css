@@ -1,0 +1,136 @@
+#footer
+{
+    width: 95%;
+    height: 400px;
+    border : 1px solid black;
+    border-radius : 10px;
+    margin-top : 70px;
+    margin-left : 40px;
+    display : flex;
+    background-color : #212121;
+    color : white;
+}
+#homepart
+{
+    width : 30%; 
+    margin-top : 60px;
+    margin-left : 80px;
+}
+#heading2
+{
+    margin-left : 15px;
+}
+#contact
+{
+    margin-left : 50px;
+    margin-top : 50px;
+}
+#email-address
+{
+    display : flex;
+}
+#mobilenumber
+{
+    display : flex;
+}
+#Address
+{
+    display : flex;
+}
+
+.bottomText
+{
+    margin-top :20px;
+    margin-left : 10px;
+    line-height : 20px;
+}
+#socialmedia
+{
+    margin-left : 20px;
+}
+#socialmedialinks
+{
+    margin-left: 350px;
+    margin-top : 30px;
+}
+#facebook
+{
+    display : flex;
+}
+#facebookimage
+{
+    background-image : url('../../../public/Images/facebook1.png');
+    background-size : 50px;
+    width : 50px;
+    height : 50px;
+    border-radius : 30px;
+    margin-top : 10px;
+}
+#facebooklink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+#twitter
+{
+    display : flex;
+}
+#twitterimage
+{
+    background-image : url('../../../public/Images/whatsapp.jpg');
+    background-size : 50px;
+    border-radius : 30px;
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+}
+#twitterlink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+#instagram
+{
+    display : flex;
+}
+#instagramimage
+{
+    background-image : url('../../../public/Images/instagram.jpeg');
+    background-size : 50px;
+    border-radius : 30px;
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+}
+#instagramlink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+#linkedin
+{
+    display: flex;
+}
+#linkedinimage
+{
+    background-image : url('../../../public/Images/linkedin.png');
+    background-size : 50px;
+    border-radius : 30px;
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+}
+#linkedinlink
+{
+    margin-left : 15px;
+    margin-top : 26px;
+}
+.CONTACT
+{
+    margin-right :30px;
+}
+
+a{
+    color : white;
+    text-decoration: none;
+}
