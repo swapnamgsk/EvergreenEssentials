@@ -1,34 +1,35 @@
 import react from "react";
 import './Navbar.css';
+import { SelectConstant, navigationItems, topdivConstant } from "../Constatnt/homeConstant";
 
 function Navbar(){
     return(
-        <div>
-            
-            
-            <div className="nav">
-                <div className="language">
-                    <select className="select">
-                            <option>select the language</option>
-                            <option>Telugu</option>
-                            <option>Hindi</option>
-                            <option>Tamil</option>
-                            <option>Kannada</option>
-                            <option>Malayalam</option>
-                            <option>Bengali</option>
-                        </select>
-                </div>
+        <div className="nav">   
+            <div id = "topDiv">
+                {topdivConstant.head}
+                </div> 
                 <div className="navbar">
                     <div>
                         <div className="logo"></div>
-                        <p className="quote">Uncover, Unlock, Empower:Nature's Wisdom.</p>
+                        <p className="quote">{topdivConstant.para}</p>
                     </div>
-                    <h2 className="home">Home</h2>
-                    <h2 className="about">About</h2>
-                    <h2 className="plant">Plants</h2>
+                    {
+                        navigationItems.map((item, index) => (
+                        <h3 key={index} className={item.className}>{item.label}</h3>
+                        ))
+                    }
+
+                    <div className="language">
+                        <select className="select">
+                                {
+                                    SelectConstant.map((item,i) =>(
+                                        <option key = {i}>{item}</option>
+                                    ))
+                                }
+                            </select>
+                    </div>
                     <div className="signin"></div>
-                </div>
-            </div>
+                </div>   
         </div>
     )
 }
