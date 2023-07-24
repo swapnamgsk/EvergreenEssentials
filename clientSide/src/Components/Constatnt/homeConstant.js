@@ -18,8 +18,21 @@ export const SelectConstant = ["select the language","Telugu","Hindi","Tamil","K
 
 
 export const navigationItems = [
-    { label: "Home", className: "home" },
-    { label: "About", className: "about" },
-    { label: "Plants", className: "plant" }
+    {   
+        label: "Home", 
+        className: "home",
+        link : "/home"
+    },
+    { 
+        label: "About",
+        className: "about",
+        link : "/about"
+    },
+    { 
+        label: "Plants",
+        className: "plant",
+        link : "/plants"
+    },
+
   ];
 

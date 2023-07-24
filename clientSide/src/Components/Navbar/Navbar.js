@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <div className="nav">   
             <div id = "topDiv">
-                {topdivConstant.head}
+                <p className="head">{topdivConstant.head}</p>
                 </div> 
                 <div className="navbar">
                     <div>

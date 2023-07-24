@@ -22,19 +22,19 @@ function Footer(){
                         <div id = "email-address">
                             <h3>Email Adress :  </h3>
                             <p className= "bottomText">
-                                <a href = "mailto:mgswapna1911@gmail.com">mgswappna1911@gmail.com</a>
+                                <a href = "mailto:mgswapna1911@gmail.com">sanjivini@gmail.com</a>
                             </p>
                         </div>
                         <div id = "mobilenumber">
                             <h3>Mobile number : </h3>
                             <p className= "bottomText">
-                                <a href = "tel:9177939170">9177939170</a>
+                                <a href = "tel:9177939170">9876543210</a>
                             </p>
                         </div>
                         <div id = "Address">
                             <h3>Adress : </h3>
                             <p className= "bottomText">
-                                <a href = "https://goo.gl/maps/ozj2hSoiqk824Fju9">2-20/Jeedimakulapalli,gangavaram<br/>Chittor,AP</a>
+                                <a href = "https://goo.gl/maps/ozj2hSoiqk824Fju9">20-Gangavaram,palamaner<br/>Chittor,AP</a>
                             </p>
                         </div>
 
