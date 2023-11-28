@@ -1,13 +1,16 @@
-import react from "react";
 import './Navbar.css';
+import React from 'react';
 import { SelectConstant, navigationItems, topdivConstant } from "../Constatnt/homeConstant";
+import {Link} from 'react-router-dom';
 
 function Navbar(){
     return(
         <div className="nav">   
             <div id = "topDiv">
-                <p className="head">{topdivConstant.head}</p>
-                </div> 
+                <marquee className="head">{topdivConstant.head}</marquee>
+            </div> 
+
+
                 <div className="navbar">
                     <div>
                         <div className="logo"></div>
@@ -15,9 +18,27 @@ function Navbar(){
                     </div>
                     {
                         navigationItems.map((item, index) => (
-                        <h3 key={index} className={item.className}>{item.label}</h3>
+                            <Link to = {item.link} className='link'><p key = {index} className= "margintop" style={{textDecoration: 'none', borderBottom: 'none'}}>{item.label}</p></Link>
                         ))
                     }
+                   
+
+                <div className="dropdown">
+                    <Link to="/category">
+                    <span>Category</span>
+                    </Link>
+                    <ul className="submenu">
+                        <li>
+                        <Link to="/category/heart">Cardioprotective</Link>
+                        </li>
+                        <li>
+                        <Link to="/category/brain">Adaptogens</Link>
+                        </li>
+                        <li>
+                        <Link to="/category/kidney">Diuretics</Link>
+                        </li>
+                    </ul>
+                    </div>
 
                     <div className="language">
                         <select className="select">
@@ -28,9 +49,9 @@ function Navbar(){
                                 }
                             </select>
                     </div>
-                    <div className="signin"></div>
                 </div>   
         </div>
     )
 }
 export default Navbar;
+

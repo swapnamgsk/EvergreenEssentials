@@ -4,46 +4,31 @@
     margin-left : 40px;
   justify-content: space-between;
 }
-
 .plantContainer {
-    background-color :azure;
-    /* background-color: rgb(205,197,161); */
     width: 300px;
     height : 350px;
-    /* border: 1px solid green; */
-    border-top: 1px solid green;
-    border-left: 3px solid green;
-    border-right: 1px solid green;
-    border-bottom: 5px solid green;
     border-radius: 10px;
     text-align: center;
     padding : 10px 20px;
     margin : 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.plantData:hover{
-    display: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .plantImage{
     width : 150px;
     height : 150px;
     border-radius: 75px;
 }
-.plantImage:hover{
-    width: 300px;
-    height : 350px; 
-}
-
 .inputPart{
     height: 80px;
-    /* border: 1px solid black; */
     display: flex;
     background-color: rgb(243, 243, 243);
 }
 .input{
     width : 300px;
     height : 30px;
-    margin-left : 950px; 
+    /* border: 1px solid black;
+    color: black; */
+    margin-left : 750px; 
     margin-top : 22px;
 }
 .search{
@@ -57,4 +42,29 @@
 }
 .search:hover{
     cursor: pointer;
+}
+.product{
+    margin-top: 20px;
+    font-family: Oswald,sans-serif;
+    color: rgb(18,18,18,0.75);
+    font-size: 35px;
+    margin-left: 40px;
+}
+#plantdetails{
+    color: black;
+}
+.plantName{
+    color: black;
+}
+.pagination{
+    margin-left: 650px ;
+}
+.pagination:hover{
+    cursor: pointer;
+}
+.page-number{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
 }

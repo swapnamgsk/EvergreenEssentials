@@ -5,11 +5,11 @@ const initialState = {
   };
 const dataReducer = (state = initialState, action) => {
     switch (action.type) {
-      case ('GET_ALL_PLANTDATA_REQUEST'):
+      case ('GET_ALL_HEARTPLANTDATA_REQUEST'):
         return { ...state, isLoading: true, error: null };
-      case ('GET_ALL_PLANTDATA_SUCCESS'):
+      case ('GET_ALL_HEARTPLANTDATA_SUCCESS'):
         return { ...state, isLoading: false, data: action.payload, error: null };
-      case ('GET_ALL_PLANTDATA_FAILURE'):
+      case ('GET_ALL_HEARTPLANTDATA_FAILURE'):
         return { ...state, isLoading: false, error: action.payload };
       default:
         return state;

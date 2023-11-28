@@ -7,10 +7,18 @@ export const topdivConstant = {
 export const HomeConstant ={
     heading :"Home",
         para :[
-            "About",
-            "Collections",
-            "Plant resources",
-            "Services"
+            {   
+                label: "Home", 
+                link : "/home"
+            },
+            { 
+                label: "About",
+                link : "/about"
+            },
+            { 
+                label: "Plants",
+                link : "/plants"
+            },
         ]   
 }
 
@@ -20,19 +28,17 @@ export const SelectConstant = ["select the language","Telugu","Hindi","Tamil","K
 export const navigationItems = [
     {   
         label: "Home", 
-        className: "home",
         link : "/home"
     },
     { 
         label: "About",
-        className: "about",
         link : "/about"
     },
     { 
         label: "Plants",
-        className: "plant",
         link : "/plants"
     },
-
   ];
+
+  
 

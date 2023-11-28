@@ -1,0 +1,17 @@
+.plant-details{
+    display: flex;
+}
+.image-container{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+}
+.text-container{
+    width: 750px;
+    height: 100%;
+    border: 1px solid black;
+}
+#DATADIV{
+    width: 700px;
+    border: 1px solid red;
+}

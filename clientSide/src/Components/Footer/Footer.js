@@ -1,6 +1,8 @@
 import React from "react";
 import './Footer.css'
-import { ContactConstant, HomeConstant } from "../Constatnt/homeConstant";
+import {HomeConstant } from "../Constatnt/homeConstant";
+import {Link} from 'react-router-dom';
+
 
 function Footer(){
     return(
@@ -8,10 +10,10 @@ function Footer(){
             <div id = "footerlogo"></div>
                 <div id = "footerText">
                     <div id = "homepart">
-                        <h3>{HomeConstant.heading}</h3>
+                        <h3 id = "head">{HomeConstant.heading}</h3>
                         {
                             HomeConstant.para.map((item,i)=>(
-                                <p key = {i}>{item}</p>
+                                <Link to = {item.link}><p key = {i} id = "paragraphTag">{item.label}</p></Link>
                             ))
                         }
                     </div>
@@ -49,10 +51,6 @@ function Footer(){
                             <h3 id = "facebooklink">
                                 <a href = "https://www.facebook.com/jtdfoundation/">Facebook</a>
                             </h3>
-                        </div>
-                        <div id = "twitter">
-                            <div id = "twitterimage"></div>
-                            <h3 id = "twitterlink">Whatsapp</h3>
                         </div>
                         <div id = "instagram">
                             <div   id = "instagramimage"></div>
