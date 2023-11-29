@@ -6,7 +6,6 @@ function Kidney() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    // Fetch data when the component mounts
     axios.get('http://localhost:8080/kidney')
       .then((response) => {
         setData(response.data);
@@ -15,8 +14,7 @@ function Kidney() {
         console.error('Error fetching data:', error);
         setError('Error fetching data.');
       });
-  }, []); // Empty dependency array ensures the effect runs only once when the component mounts
-
+  }, []); 
   return (
     <div>
       <div className='main'>

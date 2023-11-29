@@ -14,7 +14,6 @@ export const Home=()=>{
                 <div className='gifImage'></div>
                 <div>
                     <h2 className='plant'>🅿🅻🅰🅽🆃🆂</h2>
-                    {/* <h2 className='style'>𝓔𝓋ℯ𝓇𝓎 𝒷𝓇ℯ𝒶𝓉𝒽 𝒾𝓈 𝒶 ℊ𝒾𝓋ℯ𝒶𝓌𝒶𝓎 𝒹𝒶𝓃𝒸ℯ 𝒷ℯ𝓉𝓌ℯℯ𝓃 𝓎ℴ𝓊 𝒶𝓃𝒹 𝓉𝒽ℯ 𝓅𝓁𝒶𝓃𝓉𝓈</h2> */}
                     <h2 className='style'>𝓔𝓮𝓿𝓮𝓻𝔂 𝓫𝓻𝓮𝓪𝓽𝓱 𝓲𝓼 𝓪 𝓰𝓲𝓿𝓮𝓪𝔀𝓪𝔂 𝓭𝓪𝓷𝓬𝓮 𝓫𝓮𝓽𝔀𝓮𝓮𝓷 𝔂𝓸𝓾 𝓪𝓷𝓭 𝓽𝓱𝓮 𝓹𝓵𝓪𝓷𝓽𝓼</h2>
                 </div>
             </div>

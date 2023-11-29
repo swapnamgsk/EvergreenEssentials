@@ -7,7 +7,7 @@ import './Product.css';
 export const Product = () => {
   const [search, setSearch] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const [plantsPerPage] = useState(9); // Adjust the number of plants per page as needed
+  const [plantsPerPage] = useState(9);
 
   const { data } = useSelector((state) => state.dataReducer);
   const dispatch = useDispatch();

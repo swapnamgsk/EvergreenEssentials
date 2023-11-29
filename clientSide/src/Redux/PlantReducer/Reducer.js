@@ -18,6 +18,3 @@ const dataReducer = (state = initialState, action) => {
   
   export default dataReducer;
   
-
-
-  
